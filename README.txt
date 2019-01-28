@@ -1,12 +1,17 @@
-Fetal XCMR v1.0 2018-12-04
+Fetal XCMR v1.1 2019-01-28
 ============================================================
 This package contains scripts designed to simulate fetal cardiac MRI data.
 
 Example usage of the main script "Fetal_XCMR_Main.m" is demonstrated by two demos for Cartesian and Radial data acquisitions respectively contained in "Fetal_XCMR_Demo.m".
 
+Updates
+============================================================
+Units are included for user-defined motion amplitudes.
+filesep is used instead of "/" for mac-compatibility
+
 Dependencies
 ============================================================
-This code was tested in Matlab R2018a
+This code was tested in Matlab R2018a on a laptop with Windows 10
 
 All code is self contained and subfunctions are located in the Utilities folder with the exception of the non-uniform fourier transform which is required for radial data generation and reconstruction. It can easily be implemented using the iGRASP code from Li Feng and Ricardo Otazo.
 
